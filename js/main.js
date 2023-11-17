@@ -184,7 +184,7 @@ function autoPlayBackward() {
 }
 
 // RICHIAMO LE FUNZIONI OGNI 3 SECONDI, PROVO SIA IL CASO AVANTI CHE INDIETRO
-setInterval(autoPlayForward, 3000);
+// setInterval(autoPlayForward, 3000);
 // setInterval(autoPlayBackward, 3000);
 
 
