@@ -188,4 +188,18 @@ function autoPlayBackward() {
 // setInterval(autoPlayBackward, 3000);
 
 
+const start = document.getElementById('start');
+const stop = document.getElementById('stop');
+
+let autoPlay;
+
+start.addEventListener('click', function() {
+  autoPlay = setInterval(autoPlayForward, 3000);
+  // autoPlay = setInterval(autoPlayBackward, 3000);
+})
+
+stop.addEventListener('click', function() {
+  clearInterval(autoPlay);
+})
+
 //************* CODICE NUOVO FINE
